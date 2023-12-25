@@ -1,0 +1,14 @@
+.contact input{
+    width: 98.5%;
+    height: 40px;
+}
+.contact textarea{
+    height: 160px;
+}
+
+footer .container{
+    flex-direction: column-reverse;
+}
+footer .container .top{
+    margin-bottom: 20px;
+}

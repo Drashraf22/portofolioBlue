@@ -1,0 +1,47 @@
+/* Start Header */
+header .container{
+    position: relative;
+}
+header ul{
+    position: absolute;
+    top: 100%;
+    left: 0;right: 0;
+    flex-direction: column;
+    transform: scale(0);
+    transition: 0.3s ease;
+    background-color: var(--bg-color);
+    z-index: 1000;
+}
+header ul.active{
+    transform: scale(1);
+}
+header ul li a {
+    margin: 15px 0;
+    padding-left: 15px;
+}
+#bar{
+    display: block;
+    font-size: 22px;
+    transform: scaleX(1.2);
+    cursor: pointer;
+}
+#bar:hover{
+    color: var(--main-color);
+}
+/* End Header */
+
+/* Start Home */
+.home .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+/* End Home */
+
+/* Start about */
+.about .container{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+/* End about */
